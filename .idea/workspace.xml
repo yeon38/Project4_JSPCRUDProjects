@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c6247b0-fae6-4e11-9538-f2cc45d1d5c9" name="Changes" comment="feat [modify title]" />
+    <list default="true" id="5c6247b0-fae6-4e11-9538-f2cc45d1d5c9" name="Changes" comment="feat [modify css]">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/posts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/posts.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +28,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yeon38"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="015ceadb-e18c-47ed-b79e-07b04c10f207" />
+        <option name="url" value="https://github.com/yeon38/JSPCRUDProjects.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -115,7 +132,7 @@
       <workItem from="1699600460075" duration="2378000" />
       <workItem from="1699945586374" duration="4162000" />
       <workItem from="1700204611610" duration="5941000" />
-      <workItem from="1700457945866" duration="5332000" />
+      <workItem from="1700457945866" duration="10219000" />
     </task>
     <task id="LOCAL-00001" summary="feat [first]">
       <option name="closed" value="true" />
@@ -157,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700462692314</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat [modify css]">
+      <option name="closed" value="true" />
+      <created>1700474854457</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700474854457</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,8 +192,8 @@
     <MESSAGE value="feat [first]" />
     <MESSAGE value="feat [rename]" />
     <MESSAGE value="feat [add fileform, fileform_ok]" />
-    <MESSAGE value="feat [modify css]" />
     <MESSAGE value="feat [modify title]" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat [modify title]" />
+    <MESSAGE value="feat [modify css]" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat [modify css]" />
   </component>
 </project>

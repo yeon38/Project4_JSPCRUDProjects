@@ -52,6 +52,7 @@
 	<th>Regdate</th>
 	<th>Edit</th>
 	<th>Delete</th>
+	<!--<th>View </th>-->
 </tr>
 <c:forEach items="${list}" var="u">
 	<tr>
@@ -63,6 +64,7 @@
 		<td>${u.getRegdate()}</td>
 		<td><a href="editform.jsp?id=${u.getSeq()}">Edit</a></td>
 		<td><a href="javascript:delete_ok('${u.getSeq()}')">Delete</a></td>
+		<!--<td><a href="viewpostform.jsp?id=${u.getSeq()}">View</a></td>-->
 	</tr>
 </c:forEach>
 </table>
