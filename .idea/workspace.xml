@@ -9,14 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c6247b0-fae6-4e11-9538-f2cc45d1d5c9" name="Changes" comment="feat [rename]">
+    <list default="true" id="5c6247b0-fae6-4e11-9538-f2cc45d1d5c9" name="Changes" comment="feat [add fileform, fileform_ok]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jspcrudprojects/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jspcrudprojects/BoardDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jspcrudprojects/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jspcrudprojects/BoardVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addpostform.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editform.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/posts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/posts.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fileform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fileform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fileform_ok.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fileform_ok.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +121,7 @@
       <workItem from="1699600460075" duration="2378000" />
       <workItem from="1699945586374" duration="4162000" />
       <workItem from="1700204611610" duration="5941000" />
-      <workItem from="1700457945866" duration="3838000" />
+      <workItem from="1700457945866" duration="4527000" />
     </task>
     <task id="LOCAL-00001" summary="feat [first]">
       <option name="closed" value="true" />
@@ -141,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699948849232</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat [add fileform, fileform_ok]">
+      <option name="closed" value="true" />
+      <created>1700461915225</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700461915225</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat [first]" />
     <MESSAGE value="feat [rename]" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat [rename]" />
+    <MESSAGE value="feat [add fileform, fileform_ok]" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat [add fileform, fileform_ok]" />
   </component>
 </project>

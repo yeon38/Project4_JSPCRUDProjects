@@ -13,6 +13,34 @@
 <html>
 <head>
     <title>Free Board</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .upload-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .image-preview {
+            margin-top: 20px;
+            max-width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+
 </head>
 <body>
 <%
@@ -29,6 +57,6 @@
     filename = multipartRequest.getFilesystemName("img1");
 %>
 파일명: <%=filename%> <br/>
-<img src = "${pageContext.request.contextPath}/upload/<%=filename%>" style="width: 300px">
+<img src = "${pageContext.request.contextPath}/upload/<%=filename%>" style="width: 600px">
 </body>
 </html>
