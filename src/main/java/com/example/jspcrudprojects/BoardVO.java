@@ -9,7 +9,14 @@ public class BoardVO {
 	private String content;
 	private Date regdate;
 	private int cnt;
-	
+	private String category;
+
+	public String getCategory() {
+		return category;
+	}
+	public void setCategory(String category) {
+		this.category = category;
+	}
 	public int getSeq() {
 		return seq;
 	}

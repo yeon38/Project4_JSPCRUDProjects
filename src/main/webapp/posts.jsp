@@ -24,7 +24,7 @@
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
-  background-color: #006bb3;
+  background-color: #18c9f5;
   color: white;
 }
 </style>
@@ -48,6 +48,7 @@
 	<th>Title</th>
 	<th>Writer</th>
 	<th>Content</th>
+	<th>Category</th>
 	<th>Regdate</th>
 	<th>Edit</th>
 	<th>Delete</th>
@@ -58,6 +59,7 @@
 		<td>${u.getTitle()}</td>
 		<td>${u.getWriter()}</td>
 		<td>${u.getContent()}</td>
+		<td>${u.getCategory()}</td>
 		<td>${u.getRegdate()}</td>
 		<td><a href="editform.jsp?id=${u.getSeq()}">Edit</a></td>
 		<td><a href="javascript:delete_ok('${u.getSeq()}')">Delete</a></td>
