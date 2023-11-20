@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Free Board</title>
+    <title>File Upload Board</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;

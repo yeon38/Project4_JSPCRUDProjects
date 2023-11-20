@@ -12,7 +12,7 @@
 
 <html>
 <head>
-    <title>Free Board</title>
+    <title>File Upload Board</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
