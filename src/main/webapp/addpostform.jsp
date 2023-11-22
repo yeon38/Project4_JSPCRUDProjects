@@ -1,10 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Add Form</title>
+    <meta charset="UTF-8">
+    <title>Add Form</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -68,19 +67,35 @@
         input[type="button"]:hover {
             background-color: #ef0387;
         }
+        .postlink {
+            display: inline-block;
+            padding: 10px;
+            background-color: #18c9f5;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-right: 10px; /* Add margin to the right */
+        }
+        .postlink:hover {
+            background-color: #147594;
+        }
     </style>
 </head>
 <body>
 
 <h1>Add New Post</h1>
 <form action="addpost.jsp" method="post">
-<table>
-    <tr><td>Title:</td><td><input type="text" name="title"/></td></tr>
-    <tr><td>Writer:</td><td><input type="text" name="writer"/></td></tr>
-    <tr><td>Content:</td><td><textarea cols="50" rows="5" name="content"></textarea></td></tr>
-    <tr><td>Category:</td><td><input type="text" name="category"/></td></tr>
-    <tr><td><a href="posts.jsp">View All Records</a></td><td align="right"><input type="submit" value="Add Post"/></td></tr>
-</table>
+    <table>
+        <tr><td>Title:</td><td><input type="text" name="title"/></td></tr>
+        <tr><td>Writer:</td><td><input type="text" name="writer"/></td></tr>
+        <tr><td>Content:</td><td><textarea cols="50" rows="5" name="content"></textarea></td></tr>
+        <tr><td>Category:</td><td><input type="text" name="category"/></td></tr>
+        <tr>
+            <td><a href="posts.jsp" class="postlink">View All Records</a></td>
+            <td align="right"><input type="submit" value="Add Post"/></td>
+        </tr>
+    </table>
 </form>
 
 </body>

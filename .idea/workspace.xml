@@ -9,8 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c6247b0-fae6-4e11-9538-f2cc45d1d5c9" name="Changes" comment="feat [modify css]">
+    <list default="true" id="5c6247b0-fae6-4e11-9538-f2cc45d1d5c9" name="Changes" comment="feat [modify files]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jspcrudprojects/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jspcrudprojects/BoardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jspcrudprojects/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jspcrudprojects/BoardVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addpostform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/editpost.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editpost.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/posts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/posts.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,12 +33,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "yeon38"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yeon38&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -132,7 +136,9 @@
       <workItem from="1699600460075" duration="2378000" />
       <workItem from="1699945586374" duration="4162000" />
       <workItem from="1700204611610" duration="5941000" />
-      <workItem from="1700457945866" duration="10219000" />
+      <workItem from="1700457945866" duration="10863000" />
+      <workItem from="1700550586139" duration="4953000" />
+      <workItem from="1700555999500" duration="5403000" />
     </task>
     <task id="LOCAL-00001" summary="feat [first]">
       <option name="closed" value="true" />
@@ -182,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700474854457</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat [modify files]">
+      <option name="closed" value="true" />
+      <created>1700502268805</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700502268805</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +208,7 @@
     <MESSAGE value="feat [add fileform, fileform_ok]" />
     <MESSAGE value="feat [modify title]" />
     <MESSAGE value="feat [modify css]" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat [modify css]" />
+    <MESSAGE value="feat [modify files]" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat [modify files]" />
   </component>
 </project>

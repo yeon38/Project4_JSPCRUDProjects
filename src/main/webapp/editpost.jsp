@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@page import="com.example.jspcrudprojects.BoardDAO"%>
 
+
 <% request.setCharacterEncoding("utf-8"); %>
 
 <jsp:useBean id="u" class="com.example.jspcrudprojects.BoardVO" />

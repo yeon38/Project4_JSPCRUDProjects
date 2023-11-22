@@ -86,6 +86,8 @@ public class BoardDAO {
                 one.setWriter(rs.getString("writer"));
                 one.setContent(rs.getString("content"));
                 one.setCategory(rs.getString("category"));
+                one.setRegdate(rs.getDate("regdate"));
+                one.setModdate(rs.getDate("moddate"));
                 one.setCnt(rs.getInt("cnt"));
 
             }
@@ -110,6 +112,7 @@ public class BoardDAO {
                 one.setContent(rs.getString("content"));
                 one.setCategory(rs.getString("category"));
                 one.setRegdate(rs.getDate("regdate"));
+                one.setModdate(rs.getDate("moddate"));
                 one.setCnt(rs.getInt("cnt"));
 
                 list.add(one);

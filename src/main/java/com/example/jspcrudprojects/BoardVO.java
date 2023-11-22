@@ -8,9 +8,17 @@ public class BoardVO {
 	private String writer;
 	private String content;
 	private Date regdate;
+	private Date moddate;
 	private int cnt;
 	private String category;
 
+
+	public Date getModdate() {
+		return moddate;
+	}
+	public void setModdate(Date moddate) {
+		this.moddate = moddate;
+	}
 	public String getCategory() {
 		return category;
 	}
@@ -53,4 +61,6 @@ public class BoardVO {
 	public void setCnt(int cnt) {
 		this.cnt = cnt;
 	}
+
+
 }
